@@ -9,6 +9,7 @@ df2 = pd.read_excel('CMETest.xlsx', sheet_name='Bucketted Skills') # Adjust the 
 workbook = xlsxwriter.Workbook('CMETest2.xlsx', {'nan_inf_to_errors': True})
 worksheet = workbook.add_worksheet()
 
+
 # Example: Write data from df1 to the new Excel file
 # This part of the code is simplified and needs to be adjusted based on your specific requirements
 for index, row in df1.iterrows():
