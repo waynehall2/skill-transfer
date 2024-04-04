@@ -15,7 +15,7 @@ worksheet = workbook.add_worksheet()
 for index, row in df1.iterrows():
     # Assuming 'Resource Enterprise ID' is in column 'B' of df1 and 'EID' is in column 'D' of df2
     # Assuming 'Skill' is in column 'C' of df1 and the skills are in the first row of df2
-    # Assuming 'Level' is in column 'D' of df1
+    # Assuming 'Level' is in column 'D' of df1sf
     eid = row['Resource Enterprise ID']
     skill = row['Skill']
     level = row['Level']
